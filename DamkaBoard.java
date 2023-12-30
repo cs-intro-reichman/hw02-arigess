@@ -8,11 +8,6 @@ public class DamkaBoard {
             for (int j = 0; j < numberOfLines; j++) {
                 if (i % 2 == 0) { //in even lines, we will start with *
                     System.out.print("* ");
-
-//                    if (j == numberOfLines - 1) {
-  //                      System.out.print("*");
-    //                } else {
-       //             }
                 } else { // in odd lines, we will start with a space
                     System.out.print(" *");
                 }
