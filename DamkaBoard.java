@@ -10,10 +10,10 @@ public class DamkaBoard {
                     if (j == numberOfLines - 1) {
                         System.out.print("*");
                     } else {
-                        System.out.print("* ");
+                        System.out.print("*  ");
                     }
                 } else { // in odd lines, we will start with a space
-                    System.out.print(" *");
+                    System.out.print("  *");
                 }
             }
             System.out.println();
